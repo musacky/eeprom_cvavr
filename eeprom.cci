@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:4294862B
+NODE:I LEVEL:0 LINE:24 "C:\Program Files (x86)\inc\mega16.h"
+NODE:I LEVEL:0 LINE:25 "C:\Program Files (x86)\inc\delay.h"
+NODE:I LEVEL:0 LINE:26 "C:\Program Files (x86)\inc\stdlib.h"
+NODE:V LEVEL:0 LINE:28 "*pointer_eeprom -> R4,R5"
+NODE:V LEVEL:0 LINE:29 "data -> R6,R7"
+NODE:V LEVEL:0 LINE:30 "temp -> RAM:????"
+NODE:F LEVEL:0 LINE:37 "tulis_data_ke_eeprom(void)"
+NODE:F LEVEL:0 LINE:41 "baca_data_ke_eeprom(void)"
+NODE:I LEVEL:0 LINE:50 "C:\Program Files (x86)\inc\alcd.h"
+NODE:F LEVEL:0 LINE:51 "tampil_lcd(void)"
+NODE:F LEVEL:0 LINE:62 "main(void)"
