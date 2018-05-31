@@ -2,13 +2,14 @@
 This program was produced by the
 CodeWizardAVR V2.05.6 Evaluation
 Automatic Program Generator
-© Copyright 1998-2012 Pavel Haiduc, HP InfoTech s.r.l.
+Â© Copyright 1998-2012 Pavel Haiduc, HP InfoTech s.r.l.
 http://www.hpinfotech.com
 
 Project : 
 Version : 
 Date    : 20/04/2013
-Author  : Freeware, for evaluation andnon-commercial use only
+Author  : Freeware, for evaluation and
+non-commercial use only
 Company : 
 Comments: 
 
@@ -51,7 +52,7 @@ data=*pointer_eeprom;
 void tampil_lcd()
 {
 lcd_gotoxy(0,0);
-lcd_putsf("ElectrO-cOntrOl");
+lcd_putsf("Testing Read / Write Eeprom");
 itoa(data,temp);
 lcd_gotoxy(0,1);
 lcd_puts(temp);
